@@ -52,7 +52,7 @@ namespace kript3
                     sifrelimetin += rotamatrisi[i - 1, k];
             }
             label1.Text = sifrelimetin;
-         
+            //sifreleme
 
             /////cozumleme
             dizi = new char[sifrelimetin.Length];
