@@ -80,7 +80,11 @@ namespace kript3
             }
             label6.Text = cozulenmetin;
         }
-
+        /// <summary>
+        /// Zigzag Şifreleme
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnZigzag_Click(object sender, EventArgs e)
         {
             string metin = txtZigzag.Text.Trim();
